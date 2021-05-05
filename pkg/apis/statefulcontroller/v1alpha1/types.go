@@ -20,7 +20,7 @@ type FooDB struct {
 
 // FooSpec is the spec for a Foo resource
 type FooDBSpec struct {
-	DeploymentName string `json:"deploymentName"`
+	StatefulsetName string `json:"deploymentName"`
 	Replicas       *int32 `json:"replicas"`
 }
 
