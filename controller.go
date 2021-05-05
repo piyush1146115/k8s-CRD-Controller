@@ -23,10 +23,10 @@ import (
 	"k8s.io/klog/v2"
 
 	samplev1alpha1 "github.com/piyush1146115/k8s-CRD-Controller/pkg/apis/statefulcontroller/v1alpha1"
-	clientset "github.com/piyush1146115/k8s-CRD-Controller/pkg/generated/clientset/versioned"
-	samplescheme "github.com/piyush1146115/k8s-CRD-Controller/pkg/generated/clientset/versioned/scheme"
-	informers "github.com/piyush1146115/k8s-CRD-Controller/pkg/generated/informers/externalversions/samplecontroller/v1alpha1"
-	listers "github.com/piyush1146115/k8s-CRD-Controller/pkg/generated/listers/samplecontroller/v1alpha1"
+	//clientset "github.com/piyush1146115/k8s-CRD-Controller/pkg/generated/clientset/versioned"
+	//samplescheme "github.com/piyush1146115/k8s-CRD-Controller/pkg/generated/clientset/versioned/scheme"
+	//informers "github.com/piyush1146115/k8s-CRD-Controller/pkg/generated/informers/externalversions/samplecontroller/v1alpha1"
+	//listers "github.com/piyush1146115/k8s-CRD-Controller/pkg/generated/listers/samplecontroller/v1alpha1"
 )
 
 const controllerAgentName = "stateful-controller"

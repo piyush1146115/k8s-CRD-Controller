@@ -1,8 +1,12 @@
 package v1alpha1
 
-import metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+import (
+	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	///_ "k8s.io/code-generator"
+)
 
 // +genclient
+// +groupName=statefulcontroller.k8s.io
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 
 // FooDB is a specification for a Foo resource
